@@ -20,9 +20,16 @@ public class OptionsController {
     @FXML
     private TextField additionalParameters;
 
+    /**
+     * Initialization method
+     * It will try to load all the settings from the database.
+     * If it fails, then it will use the default settings.
+     * */
     public void initialize(){
+        // Getting instance of the config class
         Config c = Config.getInstance();
         try {
+            // Trying to load the settings from the database.
             queryString.setText(c.getSetting("queryString"));
             cookieValue.setText(c.getSetting("cookieValue"));
             additionalParameters.setText(c.getSetting("additionalParameters"));
@@ -62,7 +69,6 @@ public class OptionsController {
             Config.additionalParameters = additionalParameters.getText();
             e.printStackTrace();
         }
-
         // Showing the message that the settings were saved.
         errorLabel.setText("Settings saved");
     }
