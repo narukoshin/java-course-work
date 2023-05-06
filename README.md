@@ -1,4 +1,15 @@
-# Git Crawler
+<h1>Git Crawler</h1>
+
+<div>
+  <img src="https://img.shields.io/github/last-commit/narukoshin/java-course-work">
+  <img src="https://img.shields.io/github/contributors/narukoshin/java-course-work">
+  <br><br>
+  <div>
+    <a target="_blank" href="https://twitter.com/narukoshin"><img src="https://media4.giphy.com/media/iFUiSYMNPvIJZDpMKN/giphy.gif?cid=ecf05e471v5jn6vuhczu1tflu2wm7qt11atwybfwcgaqxz38&rid=giphy.gif&ct=s" align="middle" width="120"></a>
+    <a target="_blank" href="https://instagram.com/naru.koshin"><img src="https://media1.giphy.com/media/Wu9Graz2W46frtHFKc/giphy.gif?cid=ecf05e47h46mbuhq40rgevni5rbxgadpw5icrr71vr9nu8d4&rid=giphy.gif&ct=s" align="middle" width="120"></a>
+    <a target="_blank" href="https://tryhackme.com/p/narukoshin"><img align="middle" src="https://www.secjuice.com/content/images/2019/01/TryHackMe-logo---small.png" width="120"></a>
+  </div>
+</div>
 
 This is a JavaFX-based web crawler that uses a powerful Google's advanced search parameters to find websites with readable .git folders. Once the crawler locates a website with a .git folder, it is able to download the contents of the folder and extract the source code of the website with additional tools.
 
