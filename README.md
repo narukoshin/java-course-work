@@ -6,6 +6,6 @@ The crawler is simple to use and includes a minimalistic GUI that allows users t
 
 The options button provides the ability to further customize search parameters, such as filtering by the last time a website was updated. Additionally, if the crawler encounters a captcha page, users can avoid it by changing the cookie value.
 
-Overall, this Git Crawler is a powerful tool that simplifies the process of finding and extracting source code from websites with .git folders.
+Overall, this Git Crawler is a powerful tool that simplifies the process of finding and extracting source code from websites with .git folders. This tool is good for penetration testers and bug hunters.
 
 ![Screenshot at 2023-05-06 18-15-31](https://user-images.githubusercontent.com/16736715/236632709-200ac0b2-9dfc-4f1b-ae89-ab1e69b74955.png)
